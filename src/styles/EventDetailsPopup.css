@@ -1,0 +1,48 @@
+.details-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.details-form {
+  background: #333; /* Dark background for better contrast */
+  color: #fff; /* White text color */
+  padding: 2rem;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+}
+
+.details-form h2 {
+  margin-top: 0;
+}
+
+.details-form p {
+  margin-bottom: 1rem;
+}
+
+.details-form .event-images img {
+  width: 100%;
+  max-width: 100px;
+  margin: 0.5rem;
+  border-radius: 4px;
+}
+
+.close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff; /* White color for the close button */
+  cursor: pointer;
+}
