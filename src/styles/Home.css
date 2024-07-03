@@ -1,27 +1,37 @@
 /* styles/Home.css */
 
-body {
+/* body {
+  width: 800px;
+  display: flex;
   font-family: Arial, sans-serif;
-  background-color: #333;
-  color: white;
+  background-color: #48c525;
+  color: rgb(64, 33, 133);
   margin: 0;
   padding: 0;
+} */
+
+.content {
+  width: 100%;
+  background-color: red;
+  padding: 0;
+  margin: 0;
 }
 
-.home-container {
+/* .home-container {
   padding: 1rem;
+  width: 100%;
 }
 
 .events-section {
   margin-top: 2rem;
-}
+} */
 
-.event-list-horizontal,
+/* .event-list-horizontal,
 .event-list {
   display: flex;
-  flex-wrap: wrap; /* Allows items to wrap to the next line */
-  gap: 1rem; /* Add gap between items */
-  padding: 1rem 0;
+  flex-wrap: wrap; 
+  gap: 1rem;  */
+/* padding: 1rem 0;
 }
 
 .event-card {
@@ -39,8 +49,8 @@ body {
   height: 150px;
   object-fit: cover;
   border-radius: 4px;
-}
-
+} */
+/* 
 .event-card h2 {
   font-size: 1.25rem;
   margin: 0.5rem 0;
@@ -57,14 +67,15 @@ body {
 }
 
 h2 {
-  text-align: left; /* Align text to the left */
-  margin-left: 1rem; /* Add left margin */
-}
+  text-align: left; 
+  margin-left: 1rem; 
+} */
 
-.carousel {
-  height: 40vh;
-  max-height: 40vh;
+/* .carousel {
+  height: 50vh;
+  max-height: 50vh;
   overflow: hidden;
+  width: 100%;
 }
 
 .carousel .slide {
@@ -87,4 +98,4 @@ h2 {
   transform: translateX(-50%);
   max-width: 80%;
   text-align: center;
-}
+} */

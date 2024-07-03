@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getEvents } from "../services/firebase";
 import { Event } from "../types/Event";
 import EventCard from "../components/EventCard";
-import "../styles/Events.css";
+// import "../styles/Events.css";
 
 const Events = () => {
   const [events, setEvents] = useState<Event[]>([]);

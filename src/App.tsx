@@ -9,14 +9,15 @@ import Navbar from "./components/Navbar";
 import Events from "./pages/Events";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+// import "./App.css";
 import "./styles/styles.css";
-import "./styles/Navbar.css"; // Ensure this is imported
+import "./styles/Navbar.css";
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <div className="content">
+      <div className="content" color="red">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sign-in" element={<SignIn />} />
