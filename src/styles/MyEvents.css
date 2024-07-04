@@ -1,10 +1,12 @@
-.my-events-container {
+.my-events-container-mine {
   display: flex;
   width: 100%;
   height: 100vh;
   color: #333;
   padding-top: 40px; /* Adjust this value based on the height of your navbar */
-  /* flex-direction: row; */
+  flex-direction: row; /* Changed from column to row */
+  gap: 20px;
+  /* background-color: yellow; */
 }
 
 .sidebar {
@@ -41,12 +43,12 @@
   color: white;
 }
 
-/* .content {
-  margin-left: 250px;
+.contentkk {
+  margin-left: 250px; /* Ensures content is next to the sidebar */
   padding: 2rem;
-  width: 100%;
+  width: calc(100% - 250px); /* Adjust width to account for the sidebar */
   box-sizing: border-box;
-} */
+}
 
 .event-card {
   background-color: #fff;
@@ -56,7 +58,6 @@
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin-left: 100px;
 }
 
 .event-card:hover {

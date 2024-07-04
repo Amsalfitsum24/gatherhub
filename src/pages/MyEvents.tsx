@@ -18,7 +18,7 @@ const MyEvents: React.FC = () => {
   }
 
   return (
-    <div className="my-events-container">
+    <div className="my-events-container-mine">
       <div className="sidebar">
         <button
           className={activeTab === "active" ? "active" : ""}
@@ -39,7 +39,7 @@ const MyEvents: React.FC = () => {
           Create New Event
         </button>
       </div>
-      <div className="content">
+      <div className="contentkk">
         {activeTab === "active" && <ActiveEvents />}
         {activeTab === "all" && <AllEvents />}
         {activeTab === "create" && <CreateEvent />}

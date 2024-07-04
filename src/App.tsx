@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div className="content" color="red">
+      <div className="contentpp" color="red">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sign-in" element={<SignIn />} />

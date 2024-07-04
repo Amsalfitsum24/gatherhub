@@ -1,5 +1,3 @@
-// pages/Home.tsx
-
 import { useEffect, useState } from "react";
 import { getEvents } from "../services/firebase";
 import { Event } from "../types/Event";
@@ -36,29 +34,27 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="home-container">
+    <div className="home-containerhh">
       <Carousel />
       <h1>Upcoming Events</h1>
-      <div className="events-section">
+      <div className="events-sectionhh">
         <h2>This Week's Events</h2>
-        <div className="event-list-horizontal">
+        <div className="event-listhh">
           {eventsTillSunday.map((event) => (
             <EventCard key={event.id} event={event} />
           ))}
         </div>
       </div>
-      <div className="events-section">
+      <div className="events-sectionhh">
         <h2>Popular Events</h2>
-        <div className="event-list-horizontal">
+        <div className="event-listhh">
           {popularEvents.map((event) => (
             <EventCard key={event.id} event={event} />
           ))}
         </div>
       </div>
       <h2>All Upcoming Events</h2>
-      <div className="event-list-horizontal">
-        {" "}
-        {/* Ensures proper wrapping */}
+      <div className="event-listhh">
         {events.map((event) => (
           <EventCard key={event.id} event={event} />
         ))}

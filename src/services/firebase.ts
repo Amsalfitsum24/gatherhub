@@ -16,6 +16,7 @@ import {
   doc,
   getDoc,
   setDoc,
+  deleteDoc,
   query,
   orderBy,
   where,
@@ -145,6 +146,11 @@ export const getEventById = async (id: string): Promise<Event | null> => {
   return eventDoc.exists()
     ? ({ id: eventDoc.id, ...eventDoc.data() } as Event)
     : null;
+};
+
+export const deleteEvent = async (eventId: string): Promise<void> => {
+  const eventDocRef = doc(db, "events", eventId);
+  await deleteDoc(eventDocRef);
 };
 
 export const createEvent = async (

@@ -1,0 +1,90 @@
+.all-events-container {
+  padding: 20px;
+  /* margin-left: 50px; */
+}
+
+.event-listAll {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.event-cardAll {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  position: relative;
+}
+
+.event-cardAll:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.event-avatarAll {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.event-avatarAll img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.event-infoAll {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.event-infoAll h2 {
+  font-size: 1.25rem;
+  margin: 0 0 5px 0;
+}
+
+.event-infoAll p {
+  margin: 0;
+}
+
+.attendees-countAll {
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  position: absolute;
+  right: 10px;
+}
+
+.delete-confirm-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.delete-confirm-popup button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
