@@ -1,8 +1,8 @@
-// import "../styles/About.css";
+import "../styles/About.css";
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container-ab">
       <h1>About GatherHub</h1>
       <p>
         Welcome to GatherHub, your one-stop solution for finding and organizing

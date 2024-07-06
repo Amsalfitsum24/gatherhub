@@ -15,6 +15,7 @@ const Navbar = () => {
   const handleMyEventsClick = () => {
     if (!user) {
       navigate("/sign-in");
+      window.alert("You need to sign in to access this page.");
     } else {
       navigate("/myevents");
     }

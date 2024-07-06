@@ -1,4 +1,4 @@
-.about-container {
+.about-container-ab {
   padding: 2rem;
   max-width: 800px;
   margin: 0 auto;
@@ -8,15 +8,15 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.about-container h1 {
+.about-container-ab h1 {
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.about-container p {
+.about-container-ab p {
   margin-bottom: 1rem;
 }
 
-.about-container h2 {
+.about-container-ab h2 {
   margin-top: 2rem;
 }
